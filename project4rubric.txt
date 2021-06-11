@@ -1,0 +1,55 @@
+Assignment 4 Rubric
+Criteria	Ratings	Pts
+Project 4a
+15 to >14 pts
+Full Marks
+Meets Criterion
+14 to >0 pts
+Partial Marks
+Partly meets criterion
+0 pts
+No Marks
+Does not meet criterion
+15 / 15 pts
+Project 4b
+25 to >24 pts
+Full Marks
+Meets Criterion
+24 to >0 pts
+Partial Marks
+Partly meets criterion
+0 pts
+No Marks
+Does not meet criterion
+25 / 25 pts
+Project 4c
+30 to >29 pts
+Full Marks
+Meets Criterion
+29 to >0 pts
+Partial Marks
+Partly meets criterion
+0 pts
+No Marks
+Does not meet criterion
+Comments
+-5: I'm pretty sure the issue here that is causing the GS tests to fail is because you use list comprehension to get your lower case values. That is inside your for loop, and created from a list that is in the process of being mutated. If you step through the GS test with your debugger I think you will see what I mean. If you were to just call .lower() on each string value being compared instead of using list comprehension, I think it would work fine. Everything else looks good!
+25 / 30 pts
+Project 4d
+30 to >29 pts
+Full Marks
+Meets Criterion
+29 to >0 pts
+Partial Marks
+Partly meets criterion
+0 pts
+No Marks
+Does not meet criterion
+30 / 30 pts
+Deductions
+0 pts
+Full Marks
+0 pts
+No Marks
+-- / 0 pts
+Total Points: 95
